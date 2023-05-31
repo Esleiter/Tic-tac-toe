@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #1c9cea;
+    --secondary-color: #0a3550;
+    --dark-color: #1a1c22;
+    --white: #fff
+}
+
+body {
+    background: var(--dark-color);
+    color: var(--primary-color);
+}
+p {
+    color: var(--white);
+}
+#powered {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#powered > a {
+    color: var(--primary-color);
+}
+button {
+    border: solid 1px var(--white);
+}
+button:hover {
+    border: solid 2px var(--primary-color);
+}
+.clearBtn {
+    color: var(--white);
+    box-shadow: 2px 2px var(--primary-color);
+}
+.clearBtn:hover {
+    color: var(--primary-color);
+    border: solid 1px var(--primary-color);
+    box-shadow: 4px 4px var(--primary-color);
+}

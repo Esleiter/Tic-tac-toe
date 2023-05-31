@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/circle.ico" type="image/x-icon">
+    <meta name="robots"  content="index, follow"/>
+    <meta name="description" content="Enjoy an exciting game of Tic-Tac-Toe developed with Vanilla JavaScript. Choose your moves wisely and be the first to align three of your plays in a horizontal, vertical, or diagonal line. Have fun with this classic game of strategy!" />
+    <meta name="author" content="Esleiter"/>
+    <title>Tic tac toe 🎮</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body class="grid h-screen place-items-center font-mono">
+    <p id="powered">Powered By <a href="https://esleiter.com" target="_blank">esleiter.com</a></p>
+    <span class="text-center text-3xl" id="message"></span>
+    <div class="grid grid-cols-3 h-60 w-60">
+        <button onclick="movement(0, 0)" class="text-6xl btnCell" id="00"></button>
+        <button onclick="movement(0, 1)" class="text-6xl btnCell" id="01"></button>
+        <button onclick="movement(0, 2)" class="text-6xl btnCell" id="02"></button>
+        
+        <button onclick="movement(1, 0)" class="text-6xl btnCell" id="10"></button>
+        <button onclick="movement(1, 1)" class="text-6xl btnCell" id="11"></button>
+        <button onclick="movement(1, 2)" class="text-6xl btnCell" id="12"></button>
+
+        <button onclick="movement(2, 0)" class="text-6xl btnCell" id="20"></button>
+        <button onclick="movement(2, 1)" class="text-6xl btnCell" id="21"></button>
+        <button onclick="movement(2, 2)" class="text-6xl btnCell" id="22"></button>
+    </div>
+    <div>
+        <button onclick="Clear()" class="p-2 clearBtn">Clear</button>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
