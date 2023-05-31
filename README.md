@@ -25,4 +25,4 @@ The game continues until there is a winner or a tie is reached. At that point, p
 In short, this code implements the classic game of **Tic-Tac-Toe using JavaScript**, allowing two players to compete against each other.
 
 ## Screenshot
-![Screenshot]([https://raw.githubusercontent.com/Esleiter/tic-tac-toe/main/img/screenShot/tic-tac-toe.png](https://raw.githubusercontent.com/Esleiter/tic-tac-toe/main/img/screenShot/Tic-tac-toe.png))
+![Screenshot](https://raw.githubusercontent.com/Esleiter/tic-tac-toe/main/img/screenShot/Tic-tac-toe.png)
