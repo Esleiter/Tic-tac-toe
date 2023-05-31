@@ -1,4 +1,4 @@
-# Tic-tac-toe ⌛
+# Tic-tac-toe 🎮
 Enjoy an exciting game of Tic-Tac-Toe developed with Vanilla JavaScript. Choose your moves wisely and be the first to align three of your plays in a horizontal, vertical, or diagonal line. Have fun with this classic game of strategy!
 
 * [Demo](https://ttt.esleiter.com/): https://ttt.esleiter.com
@@ -25,4 +25,4 @@ The game continues until there is a winner or a tie is reached. At that point, p
 In short, this code implements the classic game of **Tic-Tac-Toe using JavaScript**, allowing two players to compete against each other.
 
 ## Screenshot
-![Image text](https://raw.githubusercontent.com/Esleiter/tic-tac-toe/master/img/screenShot/tic-tac-toe.png)
+![Image text](https://raw.githubusercontent.com/Esleiter/tic-tac-toe/main/img/screenShot/tic-tac-toe.png)
